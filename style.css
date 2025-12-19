@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* ヒーローセクション */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('素材/内装1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    padding: 40px 20px;
+}
+
+/* カードのアス比 */
+.card-img-top {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* ドリンクカードは縦長 */
+.drink-card .card-img-top {
+    aspect-ratio: 3 / 4;
+}
+
+/* ナビゲーションリンク */
+.nav-link.active {
+    color: #ffc107 !important;
+}
